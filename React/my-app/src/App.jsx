@@ -1,10 +1,10 @@
 // src/App.jsx
-import { StyledJsx } from './components/StyledJsx';
+import { StyledComponents } from './components/StyledComponents';
 
 function App() {
   return (
     <>
-      <StyledJsx />
+      <StyledComponents />
     </>
   )
 }
