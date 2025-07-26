@@ -1,10 +1,10 @@
 // src/App.jsx
-import { StyledComponents } from './components/StyledComponents';
+import { Emotion } from './components/Emotion';
 
 function App() {
   return (
     <>
-      <StyledComponents />
+      <Emotion />
     </>
   )
 }
