@@ -14,12 +14,13 @@ const style = {
 
 export const Card = props => {
     // propsとして管理者フラグを受け取る
-    const { isAdmin } = props;
+    // const { isAdmin } = props;
 
+    // シンプルになった！
     return (
         <div style={style}>
             <p>山田太郎</p>
-            <EditButton isAdmin={isAdmin} />
+            <EditButton />
         </div>
     );
 }
